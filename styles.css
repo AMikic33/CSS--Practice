@@ -1,13 +1,35 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #D1E8E4 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container{
   background-color: #D1E8E4;
   position: relative;
   padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #C37B89;
+  margin: 0;
+  padding: 50px 0 20px;
 }
 
 h1 {
@@ -21,16 +43,56 @@ h2 {
   font-size: 1.5rem;
   color: #C37B89;
   font-weight: normal;
+  padding-bottom: 10px;
 }
+
+h3 {
+  color: #BCCC9A;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
 .bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
-
 }
 
 .top-cloud{
   position: absolute;
   right: 300px;
   top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.coding, .art {
+  width: 25%;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer-link {
+  color: #E2C2B9;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D1E8E4;
+}
+
+.copyright {
+  color: #D1E8E4;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
